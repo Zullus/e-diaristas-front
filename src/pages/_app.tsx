@@ -19,7 +19,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
       </ThemeProvider>
-      <Component {...pageProps} />
     </>
   );
 
