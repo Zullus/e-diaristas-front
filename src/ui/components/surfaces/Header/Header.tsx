@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Container, Toolbar, IconButton, MenuList, MenuItem, Divider } from "@material-ui/core";
-import useIsMobile from 'data/hooks/useIsMobile';
-import Link from 'ui/components/navigation/Link/Link';
-import RoundedButton from 'ui/components/inputs/RoundedButton/RoundedButton';
+import useIsMobile from '../../../../data/hooks/useIsMobile';
+import Link from '../../navigation/Link/Link';
+import RoundedButton from '../../inputs/RoundedButton/RoundedButton';
 import { HeaderAppBar, HeaderLogo, HeaderDrawer, ButtonsContainer} from "./Header.style";
 
 const Header = () => {
