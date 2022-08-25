@@ -48,7 +48,7 @@ export const AppList = styled('ul')`
 
 export const FooterSocialButton = styled(List)`
     display: grid;
-    grid-template-colums: repeat(3, 58px);
+    grid-template-columns: repeat(3, 58px);
     grid-gap: ${({theme})=>theme.spacing(1.5)}; 
 `;
 

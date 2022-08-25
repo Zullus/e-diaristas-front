@@ -12,13 +12,13 @@ export const HeaderAppBar = styled((props: AppBarProps)=>(
 
     .MuiToolBar-root{
         display: grid;
-        grid-template-colums: 52px auto 52px;
+        grid-template-columns: 52px auto 52px;
         justify-content: space-between;
     }
 
     ${({theme}) => theme.breakpoints.up('md')}{
         .MuiToolBar-root{
-            grid-template-colums: auto auto 1fr auto;
+            grid-template-columns: auto auto 1fr auto;
             gap: ${({theme})=>theme.spacing(9)};
             height: 100px;
         }        
@@ -34,7 +34,7 @@ export const HeaderLogo = styled("img")`
 `;
 
 export const HeaderDrawer = styled(Drawer)`
-    MuiPaper-root{
+    .MuiPaper-root{
         background-color: ${({theme}) => theme.palette.primary.main};
         padding: ${({theme}) => theme.spacing()};
         color: ${({theme}) => theme.palette.primary.contrastText};
@@ -49,7 +49,7 @@ export const HeaderDrawer = styled(Drawer)`
 
 export const ButtonsContainer = styled('div')`
     display: grid;
-    grid-template-colums: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
     gap: ${({theme})=>theme.spacing(2)};
 
 `;
