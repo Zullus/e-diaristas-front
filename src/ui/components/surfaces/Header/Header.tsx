@@ -19,6 +19,10 @@ const HeaderDesktop = () => {
                     alt={'e-diaristas'} 
                 />
             </Link>
+
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+
             <ButtonsContainer>
                 <Link 
                     href={'/cadastro/diarista'} 
@@ -27,10 +31,6 @@ const HeaderDesktop = () => {
                 >
                     Seja um(a) diarista
                 </Link>
-
-                <div>&nbsp;</div>
-                <div>&nbsp;</div>
-
                 <Link 
                     href={'/login'} 
                     Component={RoundedButton}

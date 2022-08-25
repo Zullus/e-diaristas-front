@@ -20,6 +20,7 @@ export const HeaderAppBar = styled((props: AppBarProps)=>(
         .MuiToolBar-root{
             grid-template-columns: auto auto 1fr auto;
             gap: ${({theme})=>theme.spacing(9)};
+            justify-content: space-between;
             height: 100px;
         }        
     }
