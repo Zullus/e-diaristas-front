@@ -39,7 +39,7 @@ export const AppList = styled('ul')`
     gap: ${({theme})=>theme.spacing()};
     list-style: none;
     padding: 0;
-    margin: ${({theme})=>theme.spacing(2) + '0' + theme.spacing(3)}
+    margin: ${({theme})=>theme.spacing(2) + '0' + theme.spacing(3)};
 
     img{
         width: 112px;
